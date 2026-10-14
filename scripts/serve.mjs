@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const port = Number(process.env.PORT || 4173);
-const publicFiles = new Set(["index.html", "styles.css", "app.js", "planner.js", "cart-model.js", "festival-data.js", "data/goods.json", "data/activity-slots.json", "assets/favicon.svg"]);
+const publicFiles = new Set(["index.html", "nara.html", "my-room.css", "my-room.js", "fan-model.js", "styles.css", "app.js", "planner.js", "cart-model.js", "festival-data.js", "data/goods.json", "data/songs.json", "data/lives.json", "data/size-charts.json", "data/activity-slots.json", "assets/favicon.svg"]);
 const types = { ".html": "text/html; charset=utf-8", ".css": "text/css; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".json": "application/json; charset=utf-8", ".svg": "image/svg+xml" };
 http.createServer(async (request, response) => {
   try {
@@ -24,5 +24,5 @@ http.createServer(async (request, response) => {
     response.end("Bad request");
   }
 }).listen(port, "127.0.0.1", () => {
-  console.log(`Nara Field Guide: http://127.0.0.1:${port}`);
+  console.log(`ZUTOMAYO MY ROOM: http://127.0.0.1:${port}`);
 });

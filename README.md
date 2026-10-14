@@ -1,4 +1,27 @@
-# ZUTOMAYO · Nara Field Guide
+# ZUTOMAYO · MY ROOM
+
+프로젝트의 최종 방향은 **개인화된 즛토마요 덕질 홈페이지**입니다. 첫 버전은 본인용 굿즈 보유·사이즈, 관람한 공연, 라이브에서 들어본 곡과 개인 통계를 한곳에 모읍니다. 목표·집계 기준은 [프로젝트 메모리](./project_memory/README.md)에 기록했습니다.
+
+## 개인 기록장 첫 버전 · 2026.10.15
+
+[본인용 홈페이지 열기](https://zutomayo-my-room-1014.spunky-gnat-0005.chatgpt.site) · ChatGPT 로그인 필요 · 비공개 Sites 배포. GitHub 소스와 Sites 배포는 별도로 관리합니다.
+
+- 홈: 현장·온라인 관람을 구분한 공연 수, 원곡 청취 달성률, 최다 청취곡, 도시 수, 위시리스트, 최근 관람 기록
+- 라이브: 출처가 연결된 첫 카탈로그 12개 공연, 관람·부분 관람·들은 곡 체크, 좌석·감상 메모, 목록에 없는 공연 직접 추가
+- 곡 도감: 원곡 71곡의 한글·일본어·영문 검색, 곡별 연주 횟수와 공연 수, 첫 청취 공연, 즐겨찾기
+- 굿즈: 기존 도감 234개와 개인 굿즈 직접 등록, 보유·위시리스트·배송 중·지난 기록 구분, 수량·색상·사이즈·착용감 기록
+- 사이즈: 공식 상품 스냅샷에서 추출한 56개 상품·202개 사이즈의 약 실측, 내 실측 우선 비교, 길이 차이 표시. 상품 근거 확인일은 2026.10.03
+- 백업: MY ROOM JSON 백업·복원, 복원 전 자동 백업, 기존 나라 장바구니 가져오기. 개인 기록은 브라우저에 저장되며 클라우드 자동 동기화는 아직 없음
+
+개인 기록의 저장 키는 `ztmy-my-room-profile-v1`, 기존 구매 기록 키는 그대로 보존합니다. 웹 주소·브라우저가 다르면 JSON으로 기록을 옮겨야 합니다. 테스트 기록은 별도 테스트 주소에서만 만들었으며 배포 파일에 포함하지 않습니다.
+
+공통 자료는 `data/songs.json`, `data/lives.json`, `data/goods.json`, `data/size-charts.json`에 있습니다. 개인 입력은 공통 자료와 분리됩니다. 메들리는 구성곡별로 연결하고 반복 연주는 출처가 확인된 횟수만 반영합니다. 나라 ultra魂의 반복 횟수 차이는 원문 메모로 표시합니다.
+
+`index.html`, `my-room.css`, `my-room.js`, `fan-model.js`가 새 개인 홈입니다. 기존 나라 가이드는 `nara.html`에서 열며 기존 `styles.css`, `app.js`, `planner.js`를 사용합니다.
+
+Windows의 현재 실행 환경에는 npm과 bash가 없어 Node 검사·테스트를 직접 실행하고, Sites 공통 빌드 검증기와 Windows tar로 배포 패키지를 만듭니다. `scripts/prepare-my-room-site.mjs`는 명시된 공개 앱 파일만 Sites 하위 저장소로 복사합니다. `.openai/hosting.json`의 Site ID를 재사용하며 원본 GitHub 저장소와 별도로 배포합니다.
+
+## 기존 나라 공연 가이드
 
 즛토마요 **LEGACY ZOMBIE LABO「文禍伝雷」奈良・平城京** 공연의 비공식 한국어 안내 페이지입니다.
 
@@ -39,7 +62,7 @@ node scripts/serve.mjs
 ## 검증
 
 ```powershell
-node --test tests/cart.test.mjs
+node --test tests/cart.test.mjs tests/fan.test.mjs
 ```
 
 경로별 분리·합계, 백업 왕복, 잘못된 입력 거부, 앨범 경로별 가격, 한정 색상 경로·카탈로그 출처를 검증합니다. 브라우저에서는 저장 유지, 상태 수정, 삭제 되돌리기, 필터, 갤러리와 모바일 가로 넘침을 확인했습니다.
