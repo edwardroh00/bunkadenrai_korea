@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {emptyProfile,validateProfile,calculateStats,parseBackup,exportBackup,importLegacyCart,matchSong,validDate,filterLiveEvents,isRecordableEvent} from '../fan-model.js';
+import {emptyProfile,validateProfile,calculateStats,parseBackup,exportBackup,importLegacyCart,matchSong,validDate,filterLiveEvents,isRecordableEvent,canAttendEvent} from '../fan-model.js';
 const songs=(JSON.parse(await readFile(new URL('../data/songs.json',import.meta.url)))).songs;
 const events=(JSON.parse(await readFile(new URL('../data/lives.json',import.meta.url)))).events;
 const goods=(JSON.parse(await readFile(new URL('../data/goods.json',import.meta.url)))).goods;
@@ -13,7 +13,7 @@ test('unknown setlist and conflicting repeats flag uncertainty without inventing
 test('duplicate visits and invalid heard-entry ids cannot enter saved or imported records',()=>{const a=attendance();assert.throws(()=>validateProfile({...emptyProfile(),attendances:[a,a]},songs,[event],goods),/중복/);assert.throws(()=>validateProfile({...emptyProfile(),attendances:[attendance('venue',['invalid'])]},songs,[event],goods),/관람 기록/);});
 test('backup preserves custom concerts, personal sizes, attendance, and favorites',()=>{const e={...event,id:'custom-one',venue:'Hall',city:'Seoul'},p={...emptyProfile(),customEvents:[e],attendances:[{...attendance(),id:'custom-one@venue',eventId:'custom-one'}],favorites:[songs[0].id],collection:[{id:'owned',productId:goods[0].id,name:goods[0].ko,state:'owned',quantity:2,size:'M',color:'',fit:'잘 맞아요',acquiredAt:'2026-10-10',memo:'my note',measures:{length:64,width:52}}]};const valid=validateProfile(p,songs,events,goods),restored=parseBackup(JSON.stringify(exportBackup(valid)),songs,events,goods);assert.deepEqual(restored,valid);assert.equal(calculateStats(valid,songs,events).ownedUnits,2);assert.equal(calculateStats(valid,songs,events).rows[0].count,3);});
 test('legacy cart conversion is idempotent and only received goods become owned',()=>{const records=['received','ordered','planned','cancelled'].map((status,i)=>({id:'old-'+i,productId:goods[0].id,status,quantity:1,option:'L',receivedAt:'2026-10-11T12:00',memo:''}));const p=importLegacyCart(records,emptyProfile(),goods);assert.deepEqual(p.collection.map(r=>r.state),['owned','awaiting','wishlist']);assert.equal(importLegacyCart(records,p,goods).collection.length,3);assert.equal(calculateStats(p,songs,events).ownedUnits,1);});
-test('all public concert entries use existing song ids and unique dates/ids',()=>{assert.equal(events.length,28);assert.equal(new Set(events.map(e=>e.id)).size,events.length);const ids=new Set(songs.map(s=>s.id));for(const e of events){assert.ok(validDate(e.date));assert.equal(new Set(e.setlist.map(x=>x.id)).size,e.setlist.length);for(const x of e.setlist)for(const id of x.songIds)assert.ok(ids.has(id));}});
+test('all public concert entries use existing song ids and unique dates/ids',()=>{assert.equal(events.length,275);assert.equal(new Set(events.map(e=>e.id)).size,events.length);const ids=new Set(songs.map(s=>s.id));for(const e of events){assert.ok(validDate(e.date));assert.equal(new Set(e.setlist.map(x=>x.id)).size,e.setlist.length);for(const x of e.setlist)for(const id of x.songIds)assert.ok(ids.has(id));}});
 test('ZOMCRA includes every held date and preserves earlier attendance identifiers',()=>{
  const tour=events.filter(e=>e.tourId==='zombie-crab-labo-2026');
  const dates=['02-28','03-01','03-14','03-15','03-28','03-29','04-04','04-05','04-17','04-24','04-25','05-02','05-16','05-17','06-02','06-03','06-06','06-17','06-18'];
@@ -36,3 +36,36 @@ test('tour filtering accepts Korean aliases and cancellation cannot become atten
  assert.equal(calculateStats(p,songs,events).heard.length,0);
 });
 test('song matching accepts Korean, Japanese and romanized punctuation, but never guesses missing songs',()=>{const s=songs.find(x=>x.ja==='秒針を噛む');assert.equal(matchSong(s.ko,songs).id,s.id);assert.equal(matchSong(s.ja,songs).id,s.id);assert.equal(matchSong('Byoushin wo Kamu',songs).id,s.id);assert.equal(matchSong('not a ZUTOMAYO song',songs),null);assert.equal(validDate('2026-02-31'),false);assert.equal(validDate('2026-99-99'),false);});
+test('history accounts for the official archive and every DB row without treating exhibitions as concerts',async()=>{
+ const catalog=JSON.parse(await readFile(new URL('../data/lives.json',import.meta.url)));
+ assert.equal(catalog.coverage.officialArchiveGroups,57);assert.equal(catalog.coverage.dbGroups,53);assert.equal(catalog.coverage.dbRows,261);
+ assert.deepEqual(catalog.summary,{entries:275,venue:254,online:7,cancelled:7,postponed:7,setlistKnown:256,setlistUnknown:5});
+ assert.equal(events.at(-1).date,'2018-08-29');assert.ok(!events.some(e=>e.date==='2018-08-18'));
+ assert.ok(!events.some(e=>e.name.includes('ふふふ展')));
+ for(const e of events){assert.ok(e.sourceUrls.length);assert.ok(e.checked_at);assert.ok(e.officialSource);assert.equal(new Set(e.sourceUrls).size,e.sourceUrls.length);}
+});
+test('same-day first and second sessions stay separate and use final official start times',()=>{
+ for(const [day,times] of [['2021-05-15',['13:00','18:00']],['2021-05-16',['12:30','17:30']],['2022-03-18',['16:30','19:30']],['2022-03-20',['16:30','19:30']]]){
+  const sessions=events.filter(e=>e.date===day&&e.session).sort((a,b)=>a.session.localeCompare(b.session));assert.equal(sessions.length,2);assert.deepEqual(sessions.map(e=>e.start),times);assert.notEqual(sessions[0].id,sessions[1].id);
+ }
+});
+test('postponed Aichi date cannot duplicate the replacement concert or inherit its listens',()=>{
+ const original=events.find(e=>e.date==='2024-11-07'&&e.venue.includes('センチュリー')),replacement=events.find(e=>e.date==='2025-01-07'&&e.venue.includes('センチュリー'));
+ assert.equal(original.eventStatus,'postponed');assert.equal(original.rescheduledTo,'2025-01-07');assert.equal(original.setlist.length,0);assert.equal(original.disputedSetlist.sourceSongRows,21);assert.ok(isRecordableEvent(replacement));
+ const a={id:original.id+'@venue',eventId:original.id,mode:'venue',coverage:'full',heardEntryIds:[],seat:'',memo:''},p={...emptyProfile(),attendances:[a]};assert.throws(()=>validateProfile(p,songs,events,goods));assert.equal(calculateStats(p,songs,events).attendances.length,0);
+});
+test('online-only shows never become physical visits and unknown or partial lists remain uncertain',()=>{
+ const online=events.find(e=>e.category==='online'&&!e.setlist.length),a={id:online.id+'@online',eventId:online.id,mode:'online',coverage:'full',heardEntryIds:[],seat:'',memo:''},p={...emptyProfile(),attendances:[a]};
+ assert.equal(canAttendEvent(online,'venue'),false);assert.doesNotThrow(()=>validateProfile(p,songs,events,goods));assert.equal(calculateStats(p,songs,events).attendances.length,0);assert.equal(calculateStats(p,songs,events,'online').uncertain,1);
+ assert.throws(()=>validateProfile({...p,attendances:[{...a,id:online.id+'@venue',mode:'venue'}]},songs,events,goods));
+ const guerrilla=events.find(e=>e.performer==='ACAね');assert.equal(guerrilla.setlistStatus,'partial');assert.equal(guerrilla.setlist.length,1);
+ for(const e of events.filter(e=>e.name.startsWith('MTV ')))assert.equal(e.performanceDate,null);
+});
+test('year, type, status and group filters combine without hiding same-day sessions',()=>{
+ assert.equal(filterLiveEvents(events,{year:'2018'}).length,1);
+ assert.equal(filterLiveEvents(events,{status:'cancelled'}).length,7);
+ const clean=events.find(e=>e.name.includes('CLEANING LABO')&&e.session);
+ assert.equal(filterLiveEvents(events,{tour:clean.groupId}).length,4);
+ const selected=filterLiveEvents(events,{year:'2022',category:'tour',status:'held'});assert.ok(selected.length>0);assert.ok(selected.every(e=>e.date.startsWith('2022-')&&e.category==='tour'&&isRecordableEvent(e)));
+ assert.equal(filterLiveEvents(events,{year:'2018',category:'online'}).length,0);
+});

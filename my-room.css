@@ -7,3 +7,4 @@
 
 @media(max-width:540px){.page-head>.segmented button{flex:none;white-space:nowrap}}
 .live-tour{max-width:100%;min-width:0}.live-card.cancelled{opacity:.78}.button:disabled{cursor:default;opacity:.65}
+.archive-filters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:750px}.archive-filters select{width:100%;min-width:0}.archive-coverage{font-size:11px;line-height:1.8;color:var(--muted);margin:0 0 22px;border:1px solid var(--line);border-radius:8px;padding:12px 15px}.archive-coverage summary{cursor:pointer;color:var(--ink);font-weight:600}.archive-coverage p{margin:10px 0}.live-top time small+small{margin-top:8px}.live-card .live-body h3{overflow-wrap:anywhere}

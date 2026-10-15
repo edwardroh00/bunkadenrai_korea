@@ -63,11 +63,13 @@ const additions = await Promise.all(config.map(async ([date,slug,city,country,ve
 const cancelUrl='https://zutomayo.net/news/562/';
 additions.push({id:'2026-03-28-shanghai',date:'2026-03-28',name,tour:name,tourId,aliases:['좀크라','좀크','ZOMCRA','Zombie Crab Labo'],city:'상하이',country:'중국',venue:'공식 공지에 공연장 미기재',eventStatus:'cancelled',metadataStatus:'official_checked',officialSource:cancelUrl,sourceUrls:[official,cancelUrl,`${db}/lives/tours/intense2/`],setlistStatus:'not_applicable',setlistSourceLabel:'공식 취소 공지',setlistEvidence:'not_applicable',setlist:[],sourceSongRows:0,checked_at:checkedAt,verificationNotes:['2025-12-27 공식 취소 공지. 같은 날짜의 후쿠오카 추가 공연과 별도 일정이며 관람·곡 통계에서 제외.']});
 const merged=new Map(catalog.events.map(e=>[e.id,e]));
-for(const event of additions)merged.set(event.id,event);
+for(const event of additions)merged.set(event.id,{...merged.get(event.id),...event});
 catalog.events=[...merged.values()].map(e=>e.tour===name?{...e,tourId,aliases:['좀크라','좀크','ZOMCRA','Zombie Crab Labo']}:e).sort((a,b)=>b.date.localeCompare(a.date)||a.id.localeCompare(b.id));
 catalog.updatedAt=checkedAt;
-catalog.scope='좀크라 2026 투어 전 일정: 개최 19회·취소 1건. 나라·서울 2024·일부 페스티벌 포함. 아티스트 전체 공연 목록은 아님. 개인 기록 제외.';
-catalog.tours=[{id:tourId,name,aliases:['좀크라','좀크','ZOMCRA','Zombie Crab Labo'],officialSource:official,scheduleStatus:'complete',heldCount:19,cancelledCount:1,checked_at:checkedAt}];
+if(!catalog.coverage)catalog.scope='좀크라 2026 투어 전 일정: 개최 19회·취소 1건. 나라·서울 2024·일부 페스티벌 포함. 아티스트 전체 공연 목록은 아님. 개인 기록 제외.';
+const tours=new Map((catalog.tours||[]).map(t=>[t.id,t]));
+tours.set(tourId,{...tours.get(tourId),id:tourId,name,aliases:['좀크라','좀크','ZOMCRA','Zombie Crab Labo'],officialSource:official,scheduleStatus:'complete',heldCount:19,cancelledCount:1,checked_at:checkedAt});
+catalog.tours=[...tours.values()];
 const tour=catalog.events.filter(e=>e.tourId===tourId);
 if(tour.filter(e=>e.eventStatus==='held').length!==19||tour.filter(e=>e.eventStatus==='cancelled').length!==1)throw Error('Tour schedule is incomplete');
 await writeFile(catalogPath,JSON.stringify(catalog,null,2)+'\n');
