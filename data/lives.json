@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14",
-  "scope": "첫 구축용 확인 공연 12건. 전체 공연 목록이 아니며 개인 관람 기록은 포함하지 않음.",
+  "updatedAt": "2026-10-15",
+  "scope": "좀크라 2026 투어 전 일정: 개최 19회·취소 1건. 나라·서울 2024·일부 페스티벌 포함. 아티스트 전체 공연 목록은 아님. 개인 기록 제외.",
   "completenessPolicy": "setlistStatus complete는 출처가 전체 목록으로 게시한 경우. 팬 자료의 완전성과 반복 횟수는 공식 인증과 구분.",
   "events": [
     {
@@ -1588,6 +1588,5768 @@
       ]
     },
     {
+      "id": "2026-06-18-kobe",
+      "date": "2026-06-18",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "GLION ARENA KOBE",
+      "city": "고베",
+      "country": "일본",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_06_18/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/glion-arena-kobe-kobe-japan-6b4d5ec2.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_06_18/",
+      "setlistSourceLabel": "팬 자료 2곳 대조",
+      "setlistEvidence": "fan_cross_checked",
+      "setlistOrderStatus": "cross_checked",
+      "setlistCrossCheck": {
+        "date": "2026-06-18",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/glion-arena-kobe-kobe-japan-6b4d5ec2.html",
+        "rows": 23,
+        "status": "matched",
+        "note": "ultra魂: DB 어쿠스틱 편곡, setlist.fm Live debut 표시. 반복곡·메들리 없음.",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-06-18-kobe-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s10",
+          "rawTitle": "ultra魂",
+          "songIds": [
+            "ultra-tamashii"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "アコースティックver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s17",
+          "rawTitle": "またね幻",
+          "songIds": [
+            "matane-maboroshi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-18-kobe-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "ultra魂: DB 어쿠스틱 편곡, setlist.fm Live debut 표시. 반복곡·메들리 없음.",
+        "setlist.fm의 23곡·순서를 공식 제목/별칭으로 매칭해 팬 DB와 교차 확인."
+      ]
+    },
+    {
+      "id": "2026-06-17-kobe",
+      "date": "2026-06-17",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "GLION ARENA KOBE",
+      "city": "고베",
+      "country": "일본",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_06_17/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/glion-arena-kobe-kobe-japan-634d5ec3.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_06_17/",
+      "setlistSourceLabel": "팬 자료 2곳 대조",
+      "setlistEvidence": "fan_cross_checked",
+      "setlistOrderStatus": "cross_checked",
+      "setlistCrossCheck": {
+        "date": "2026-06-17",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/glion-arena-kobe-kobe-japan-634d5ec3.html",
+        "rows": 23,
+        "status": "matched",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-06-17-kobe-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s10",
+          "rawTitle": "不法侵入",
+          "songIds": [
+            "fuhou-shinnyuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "港ジャズver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s17",
+          "rawTitle": "またね幻",
+          "songIds": [
+            "matane-maboroshi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-17-kobe-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "setlist.fm의 23곡·순서를 공식 제목/별칭으로 매칭해 팬 DB와 교차 확인."
+      ]
+    },
+    {
+      "id": "2026-06-06-hong-kong",
+      "date": "2026-06-06",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "AsiaWorld-Expo, Hall 10",
+      "city": "홍콩",
+      "country": "홍콩",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_06_06/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/asiaworld-expo-hall-10-islands-district-hong-kong-sar-china-7b4d5ecc.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_06_06/",
+      "setlistSourceLabel": "zutomayo-DB · 단일 팬 자료",
+      "setlistEvidence": "fan_single_source",
+      "setlistOrderStatus": "single_source",
+      "setlistCrossCheck": {
+        "date": "2026-06-06",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/asiaworld-expo-hall-10-islands-district-hong-kong-sar-china-7b4d5ecc.html",
+        "rows": 0,
+        "status": "empty",
+        "note": "setlist.fm은 공연 페이지에 곡이 없어 곡 교차 확인 불가. DB의 해당 날짜 23곡만 수록.",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-06-06-hong-kong-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s10",
+          "rawTitle": "不法侵入",
+          "songIds": [
+            "fuhou-shinnyuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "動物園ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s17",
+          "rawTitle": "またね幻",
+          "songIds": [
+            "matane-maboroshi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-06-hong-kong-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "setlist.fm은 공연 페이지에 곡이 없어 곡 교차 확인 불가. DB의 해당 날짜 23곡만 수록."
+      ]
+    },
+    {
+      "id": "2026-06-03-yokohama",
+      "date": "2026-06-03",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "Kアリーナ横浜",
+      "city": "요코하마",
+      "country": "일본",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_06_03/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/k-arena-yokohama-yokohama-japan-4b4c03d6.html",
+        "https://zutomayo.net/news/626/"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_06_03/",
+      "setlistSourceLabel": "팬 자료 2곳 대조",
+      "setlistEvidence": "fan_cross_checked",
+      "setlistOrderStatus": "cross_checked",
+      "setlistCrossCheck": {
+        "date": "2026-06-03",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/k-arena-yokohama-yokohama-japan-4b4c03d6.html",
+        "rows": 23,
+        "status": "matched",
+        "note": "setlist.fm은 残機(Zanki)까지 첫 4곡 shortened. DB는 첫 3곡 short ver. 곡 매칭·횟수는 같으며 버전 주석 차이를 보존.",
+        "extraOfficialSource": "https://zutomayo.net/news/626/",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-06-03-yokohama-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s10",
+          "rawTitle": "違う曲にしようよ",
+          "songIds": [
+            "chigau-kyoku-ni-shiyouyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "台風が過ぎ去った後の浜辺、スリランカ蟹と民俗感、、",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s17",
+          "rawTitle": "またね幻",
+          "songIds": [
+            "matane-maboroshi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-03-yokohama-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "setlist.fm은 残機(Zanki)까지 첫 4곡 shortened. DB는 첫 3곡 short ver. 곡 매칭·횟수는 같으며 버전 주석 차이를 보존.",
+        "setlist.fm의 23곡·순서를 공식 제목/별칭으로 매칭해 팬 DB와 교차 확인."
+      ]
+    },
+    {
+      "id": "2026-06-02-yokohama",
+      "date": "2026-06-02",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "Kアリーナ横浜",
+      "city": "요코하마",
+      "country": "일본",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_06_02/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/k-arena-yokohama-yokohama-japan-434c03d7.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_06_02/",
+      "setlistSourceLabel": "팬 자료 2곳 대조",
+      "setlistEvidence": "fan_cross_checked",
+      "setlistOrderStatus": "cross_checked",
+      "setlistCrossCheck": {
+        "date": "2026-06-02",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/k-arena-yokohama-yokohama-japan-434c03d7.html",
+        "rows": 23,
+        "status": "matched",
+        "note": "setlist.fm은 残機(Zanki)까지 첫 4곡 shortened. DB는 첫 3곡 short ver. 곡 매칭·횟수는 같으며 버전 주석 차이를 보존.",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-06-02-yokohama-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s10",
+          "rawTitle": "君がいて水になる",
+          "songIds": [
+            "kimi-ga-ite-mizu-ni-naru"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "本格中華ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s17",
+          "rawTitle": "またね幻",
+          "songIds": [
+            "matane-maboroshi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-06-02-yokohama-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "setlist.fm은 残機(Zanki)까지 첫 4곡 shortened. DB는 첫 3곡 short ver. 곡 매칭·횟수는 같으며 버전 주석 차이를 보존.",
+        "setlist.fm의 23곡·순서를 공식 제목/별칭으로 매칭해 팬 DB와 교차 확인."
+      ]
+    },
+    {
+      "id": "2026-05-17-taipei",
+      "date": "2026-05-17",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "New Taipei City Exhibition hall",
+      "city": "타이베이",
+      "country": "대만",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_05_17/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/new-taipei-city-exhibition-hall-taipei-taiwan-434b3f3b.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_05_17/",
+      "setlistSourceLabel": "팬 자료 2곳 대조",
+      "setlistEvidence": "fan_cross_checked",
+      "setlistOrderStatus": "cross_checked",
+      "setlistCrossCheck": {
+        "date": "2026-05-17",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/new-taipei-city-exhibition-hall-taipei-taiwan-434b3f3b.html",
+        "rows": 23,
+        "status": "matched",
+        "note": "setlist.fm 첫 3곡 shortened 표기.",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-05-17-taipei-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s10",
+          "rawTitle": "不法侵入",
+          "songIds": [
+            "fuhou-shinnyuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "ラテン-&gt;サンバ",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s17",
+          "rawTitle": "またね幻",
+          "songIds": [
+            "matane-maboroshi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-17-taipei-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "setlist.fm 첫 3곡 shortened 표기.",
+        "setlist.fm의 23곡·순서를 공식 제목/별칭으로 매칭해 팬 DB와 교차 확인."
+      ]
+    },
+    {
+      "id": "2026-05-16-taipei",
+      "date": "2026-05-16",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "New Taipei City Exhibition hall",
+      "city": "타이베이",
+      "country": "대만",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_05_16/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/new-taipei-city-exhibition-hall-taipei-taiwan-5b4b3f44.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_05_16/",
+      "setlistSourceLabel": "zutomayo-DB · 단일 팬 자료",
+      "setlistEvidence": "fan_single_source",
+      "setlistOrderStatus": "single_source",
+      "setlistCrossCheck": {
+        "date": "2026-05-16",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/new-taipei-city-exhibition-hall-taipei-taiwan-5b4b3f44.html",
+        "rows": 0,
+        "status": "empty",
+        "note": "setlist.fm은 공연 페이지에 곡이 없어 곡 교차 확인 불가. DB의 해당 날짜 23곡만 수록.",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-05-16-taipei-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s10",
+          "rawTitle": "Ham",
+          "songIds": [
+            "ham"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "懐かしいヒップホップ",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s17",
+          "rawTitle": "ヒューマノイド",
+          "songIds": [
+            "humanoid"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-16-taipei-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "setlist.fm은 공연 페이지에 곡이 없어 곡 교차 확인 불가. DB의 해당 날짜 23곡만 수록."
+      ]
+    },
+    {
+      "id": "2026-05-02-bangkok",
+      "date": "2026-05-02",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "Union Hall",
+      "city": "방콕",
+      "country": "태국",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_05_02/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/union-hall-1-bangkok-thailand-1340c94d.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_05_02/",
+      "setlistSourceLabel": "팬 자료 2곳 대조",
+      "setlistEvidence": "fan_cross_checked",
+      "setlistOrderStatus": "cross_checked",
+      "setlistCrossCheck": {
+        "date": "2026-05-02",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/union-hall-1-bangkok-thailand-1340c94d.html",
+        "rows": 23,
+        "status": "matched",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-05-02-bangkok-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s10",
+          "rawTitle": "夜中のキスミ",
+          "songIds": [
+            "yonaka-no-kisumi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "ジャジー・ローファイHipHop",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s17",
+          "rawTitle": "ヒューマノイド",
+          "songIds": [
+            "humanoid"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-05-02-bangkok-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "setlist.fm의 23곡·순서를 공식 제목/별칭으로 매칭해 팬 DB와 교차 확인."
+      ]
+    },
+    {
+      "id": "2026-04-25-osaka",
+      "date": "2026-04-25",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "大阪城ホール",
+      "city": "오사카",
+      "country": "일본",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_04_25/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/osaka-jou-hall-osaka-japan-5b4c03d0.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_04_25/",
+      "setlistSourceLabel": "팬 자료 2곳 대조",
+      "setlistEvidence": "fan_cross_checked",
+      "setlistOrderStatus": "cross_checked",
+      "setlistCrossCheck": {
+        "date": "2026-04-25",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/osaka-jou-hall-osaka-japan-5b4c03d0.html",
+        "rows": 23,
+        "status": "matched",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-04-25-osaka-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s10",
+          "rawTitle": "不法侵入",
+          "songIds": [
+            "fuhou-shinnyuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "アンビエント-&gt;アフリカン/アフロ蟹と小さい蟹",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s17",
+          "rawTitle": "ヒューマノイド",
+          "songIds": [
+            "humanoid"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-25-osaka-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "setlist.fm의 23곡·순서를 공식 제목/별칭으로 매칭해 팬 DB와 교차 확인."
+      ]
+    },
+    {
+      "id": "2026-04-24-osaka",
+      "date": "2026-04-24",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "大阪城ホール",
+      "city": "오사카",
+      "country": "일본",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_04_24/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/osaka-jou-hall-osaka-japan-534c03d1.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_04_24/",
+      "setlistSourceLabel": "팬 자료 2곳 대조",
+      "setlistEvidence": "fan_cross_checked",
+      "setlistOrderStatus": "cross_checked",
+      "setlistCrossCheck": {
+        "date": "2026-04-24",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/osaka-jou-hall-osaka-japan-534c03d1.html",
+        "rows": 23,
+        "status": "matched",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-04-24-osaka-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s10",
+          "rawTitle": "ばかじゃないのに",
+          "songIds": [
+            "baka-janai-noni"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "トロピカルジャズ",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s17",
+          "rawTitle": "ヒューマノイド",
+          "songIds": [
+            "humanoid"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-24-osaka-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "setlist.fm의 23곡·순서를 공식 제목/별칭으로 매칭해 팬 DB와 교차 확인."
+      ]
+    },
+    {
+      "id": "2026-04-17-singapore",
+      "date": "2026-04-17",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "The Star Theatre",
+      "city": "싱가포르",
+      "country": "싱가포르",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_04_17/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/the-star-performing-arts-centre-the-star-theatre-queenstown-singapore-434c03d3.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_04_17/",
+      "setlistSourceLabel": "팬 자료 2곳 대조",
+      "setlistEvidence": "fan_cross_checked",
+      "setlistOrderStatus": "cross_checked",
+      "setlistCrossCheck": {
+        "date": "2026-04-17",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/the-star-performing-arts-centre-the-star-theatre-queenstown-singapore-434c03d3.html",
+        "rows": 23,
+        "status": "matched",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-04-17-singapore-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s10",
+          "rawTitle": "夜中のキスミ",
+          "songIds": [
+            "yonaka-no-kisumi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "マーライオンver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s17",
+          "rawTitle": "ヒューマノイド",
+          "songIds": [
+            "humanoid"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-17-singapore-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "setlist.fm의 23곡·순서를 공식 제목/별칭으로 매칭해 팬 DB와 교차 확인."
+      ]
+    },
+    {
+      "id": "2026-04-05-yokohama",
+      "date": "2026-04-05",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "横浜アリーナ",
+      "city": "요코하마",
+      "country": "일본",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_04_05/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/yokohama-arena-yokohama-japan-534c03dd.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_04_05/",
+      "setlistSourceLabel": "팬 자료 2곳 대조",
+      "setlistEvidence": "fan_cross_checked",
+      "setlistOrderStatus": "cross_checked",
+      "setlistCrossCheck": {
+        "date": "2026-04-05",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/yokohama-arena-yokohama-japan-534c03dd.html",
+        "rows": 23,
+        "status": "matched",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-04-05-yokohama-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s10",
+          "rawTitle": "夜中のキスミ",
+          "songIds": [
+            "yonaka-no-kisumi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "ゾンビジャズ/ホラーゾンビクラブ?",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s17",
+          "rawTitle": "ヒューマノイド",
+          "songIds": [
+            "humanoid"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-05-yokohama-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "setlist.fm의 23곡·순서를 공식 제목/별칭으로 매칭해 팬 DB와 교차 확인."
+      ]
+    },
+    {
+      "id": "2026-04-04-yokohama",
+      "date": "2026-04-04",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "横浜アリーナ",
+      "city": "요코하마",
+      "country": "일본",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_04_04/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/yokohama-arena-yokohama-japan-4b4c03de.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_04_04/",
+      "setlistSourceLabel": "팬 자료 2곳 대조",
+      "setlistEvidence": "fan_cross_checked",
+      "setlistOrderStatus": "cross_checked",
+      "setlistCrossCheck": {
+        "date": "2026-04-04",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/yokohama-arena-yokohama-japan-4b4c03de.html",
+        "rows": 23,
+        "status": "matched",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-04-04-yokohama-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s10",
+          "rawTitle": "ばかじゃないのに",
+          "songIds": [
+            "baka-janai-noni"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "雨ジャズver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s17",
+          "rawTitle": "ヒューマノイド",
+          "songIds": [
+            "humanoid"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-04-04-yokohama-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "setlist.fm의 23곡·순서를 공식 제목/별칭으로 매칭해 팬 DB와 교차 확인."
+      ]
+    },
+    {
+      "id": "2026-03-29-fukuoka",
+      "date": "2026-03-29",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "マリンメッセ福岡B館",
+      "city": "후쿠오카",
+      "country": "일본",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_03_29/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/marine-messe-fukuoka-b-kan-fukuoka-japan-734d5ecd.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_03_29/",
+      "setlistSourceLabel": "팬 자료 2곳 대조",
+      "setlistEvidence": "fan_cross_checked",
+      "setlistOrderStatus": "conflicting",
+      "setlistCrossCheck": {
+        "date": "2026-03-29",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/marine-messe-fukuoka-b-kan-fukuoka-japan-734d5ecd.html",
+        "rows": 23,
+        "status": "order_conflict",
+        "note": "3/28과 같은 15~19번 순서 충돌. 곡 집합·횟수 일치. 夜中のキスミ는 setlist.fm Acoustic 표기, DB의 개별 편곡 설명 보존.",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-03-29-fukuoka-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s10",
+          "rawTitle": "夜中のキスミ",
+          "songIds": [
+            "yonaka-no-kisumi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "lowmotion algee感",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s17",
+          "rawTitle": "ヒューマノイド",
+          "songIds": [
+            "humanoid"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-29-fukuoka-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "3/28과 같은 15~19번 순서 충돌. 곡 집합·횟수 일치. 夜中のキスミ는 setlist.fm Acoustic 표기, DB의 개별 편곡 설명 보존."
+      ]
+    },
+    {
+      "id": "2026-03-28-fukuoka",
+      "date": "2026-03-28",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "venue": "マリンメッセ福岡B館",
+      "city": "후쿠오카",
+      "country": "일본",
+      "eventStatus": "held",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/intense2/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_03_28/",
+        "https://www.setlist.fm/setlist/zutomayo/2026/marine-messe-fukuoka-b-kan-fukuoka-japan-6b4d5ece.html"
+      ],
+      "setlistSource": "https://zutomayo-db.pages.dev/lives/tours/intense2/2026_03_28/",
+      "setlistSourceLabel": "팬 자료 2곳 대조",
+      "setlistEvidence": "fan_cross_checked",
+      "setlistOrderStatus": "conflicting",
+      "setlistCrossCheck": {
+        "date": "2026-03-28",
+        "url": "https://www.setlist.fm/setlist/zutomayo/2026/marine-messe-fukuoka-b-kan-fukuoka-japan-6b4d5ece.html",
+        "rows": 23,
+        "status": "order_conflict",
+        "note": "곡 집합·횟수 일치. DB 15~19번: TAIDADA → アンチモン → ヒューマノイド → マイノリティ脈絡 → あいつら全員同窓会. setlist.fm 15~19번 원문: Antimony → Humanoid → Minority Myakuraku → Aitsura Zenin Dousoukai → TAIDADA. DB 순서를 표시하되 순서 미확정으로 보존.",
+        "checked_at": "2026-10-15"
+      },
+      "setlistStatus": "complete",
+      "sourceSongRows": 23,
+      "setlist": [
+        {
+          "id": "2026-03-28-fukuoka-s1",
+          "rawTitle": "形",
+          "songIds": [
+            "katachi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 1,
+          "sourceNumber": "1",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s2",
+          "rawTitle": "勘ぐれい",
+          "songIds": [
+            "kangurei"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 2,
+          "sourceNumber": "2",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s3",
+          "rawTitle": "低血ボルト",
+          "songIds": [
+            "teiketsu-bolt"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 3,
+          "sourceNumber": "3",
+          "notes": "short ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s4",
+          "rawTitle": "残機",
+          "songIds": [
+            "zanki"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 4,
+          "sourceNumber": "4",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s5",
+          "rawTitle": "シェードの埃は延長",
+          "songIds": [
+            "shade-no-hokori-wa-enchou"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 5,
+          "sourceNumber": "5",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s6",
+          "rawTitle": "蟹しゃぶふぁんく",
+          "songIds": [
+            "kani-shabu-funk"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 6,
+          "sourceNumber": "6",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s7",
+          "rawTitle": "奥底に眠るルーツ",
+          "songIds": [
+            "okusoko-ni-nemuru-roots"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 7,
+          "sourceNumber": "7",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s8",
+          "rawTitle": "クリームで会いに行けますか",
+          "songIds": [
+            "cream-de-ai-ni-ikemasuka"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 8,
+          "sourceNumber": "8",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s9",
+          "rawTitle": "彷徨い酔い温度",
+          "songIds": [
+            "samayoi-yoi-ondo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 9,
+          "sourceNumber": "9",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s10",
+          "rawTitle": "ばかじゃないのに",
+          "songIds": [
+            "baka-janai-noni"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 10,
+          "sourceNumber": "10",
+          "notes": "アコースティック・化石が積もった地層ver.",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s11",
+          "rawTitle": "よもすがら",
+          "songIds": [
+            "yomosugara"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 11,
+          "sourceNumber": "11",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s12",
+          "rawTitle": "秒針を噛む",
+          "songIds": [
+            "byoushin-wo-kamu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 12,
+          "sourceNumber": "12",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s13",
+          "rawTitle": "お勉強しといてよ",
+          "songIds": [
+            "obenkyou-shitoiteyo"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 13,
+          "sourceNumber": "13",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s14",
+          "rawTitle": "海馬成長痛",
+          "songIds": [
+            "kaiba-seichoutsuu"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 14,
+          "sourceNumber": "14",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s15",
+          "rawTitle": "TAIDADA",
+          "songIds": [
+            "taidada"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 15,
+          "sourceNumber": "15",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s16",
+          "rawTitle": "アンチモン",
+          "songIds": [
+            "antimony"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 16,
+          "sourceNumber": "16",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s17",
+          "rawTitle": "ヒューマノイド",
+          "songIds": [
+            "humanoid"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 17,
+          "sourceNumber": "17",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s18",
+          "rawTitle": "マイノリティ脈絡",
+          "songIds": [
+            "minority-myakuraku"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 18,
+          "sourceNumber": "18",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s19",
+          "rawTitle": "あいつら全員同窓会",
+          "songIds": [
+            "aitsura-zenin-dousoukai"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 19,
+          "sourceNumber": "19",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s20",
+          "rawTitle": "間人間",
+          "songIds": [
+            "ma-ningen"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 20,
+          "sourceNumber": "20",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s21",
+          "rawTitle": "正義",
+          "songIds": [
+            "seigi"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 21,
+          "sourceNumber": "21",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s22",
+          "rawTitle": "脳裏上のクラッカー",
+          "songIds": [
+            "nouriue-no-cracker"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 22,
+          "sourceNumber": "22",
+          "notes": "メンバー紹介",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        },
+        {
+          "id": "2026-03-28-fukuoka-s23",
+          "rawTitle": "メディアノーチェ",
+          "songIds": [
+            "medianoche"
+          ],
+          "kind": "song",
+          "encore": false,
+          "sourcePosition": 23,
+          "sourceNumber": "23",
+          "notes": "",
+          "occurrences": 1,
+          "mappingStatus": "matched"
+        }
+      ],
+      "sourceMemos": [
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        },
+        {
+          "rawTitle": "MC",
+          "notes": ""
+        }
+      ],
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "일정·공연장은 공식 투어 일정과 대조. 각 날짜의 세트리스트는 해당 공연 팬 DB에서 개별 수집했으며 공식 확정 자료가 아님.",
+        "첫 3곡 short ver. 및 10번 곡의 어쿠스틱·편곡 주석은 DB 원문 보존. setlist.fm의 주석 생략을 원곡 불일치로 취급하지 않음.",
+        "곡 집합·횟수 일치. DB 15~19번: TAIDADA → アンチモン → ヒューマノイド → マイノリティ脈絡 → あいつら全員同窓会. setlist.fm 15~19번 원문: Antimony → Humanoid → Minority Myakuraku → Aitsura Zenin Dousoukai → TAIDADA. DB 순서를 표시하되 순서 미확정으로 보존."
+      ]
+    },
+    {
+      "id": "2026-03-28-shanghai",
+      "date": "2026-03-28",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tour": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "city": "상하이",
+      "country": "중국",
+      "venue": "공식 공지에 공연장 미기재",
+      "eventStatus": "cancelled",
+      "metadataStatus": "official_checked",
+      "officialSource": "https://zutomayo.net/news/562/",
+      "sourceUrls": [
+        "https://zutomayo.net/intense2/",
+        "https://zutomayo.net/news/562/",
+        "https://zutomayo-db.pages.dev/lives/tours/intense2/"
+      ],
+      "setlistStatus": "not_applicable",
+      "setlistSourceLabel": "공식 취소 공지",
+      "setlistEvidence": "not_applicable",
+      "setlist": [],
+      "sourceSongRows": 0,
+      "checked_at": "2026-10-15",
+      "verificationNotes": [
+        "2025-12-27 공식 취소 공지. 같은 날짜의 후쿠오카 추가 공연과 별도 일정이며 관람·곡 통계에서 제외."
+      ]
+    },
+    {
       "id": "2026-03-15-seoul",
       "date": "2026-03-15",
       "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
@@ -1949,6 +7711,13 @@
       "checked_at": "2026-10-14",
       "verificationNotes": [
         "공연 일자·장소는 공식 자료, 세트리스트는 별도 출처로 구분. 완전 표시는 출처에 수록된 전체 목록 기준이며 공식 인증을 의미하지 않음."
+      ],
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
       ]
     },
     {
@@ -2313,6 +8082,13 @@
       "checked_at": "2026-10-14",
       "verificationNotes": [
         "공연 일자·장소는 공식 자료, 세트리스트는 별도 출처로 구분. 완전 표시는 출처에 수록된 전체 목록 기준이며 공식 인증을 의미하지 않음."
+      ],
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
       ]
     },
     {
@@ -2676,6 +8452,13 @@
       "checked_at": "2026-10-14",
       "verificationNotes": [
         "공연 일자·장소는 공식 자료, 세트리스트는 별도 출처로 구분. 완전 표시는 출처에 수록된 전체 목록 기준이며 공식 인증을 의미하지 않음."
+      ],
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
       ]
     },
     {
@@ -3039,6 +8822,13 @@
       "checked_at": "2026-10-14",
       "verificationNotes": [
         "공연 일자·장소는 공식 자료, 세트리스트는 별도 출처로 구분. 완전 표시는 출처에 수록된 전체 목록 기준이며 공식 인증을 의미하지 않음."
+      ],
+      "tourId": "zombie-crab-labo-2026",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
       ]
     },
     {
@@ -3590,6 +9380,23 @@
       "verificationNotes": [
         "공연 일자·장소는 공식 자료, 세트리스트는 별도 출처로 구분. 완전 표시는 출처에 수록된 전체 목록 기준이며 공식 인증을 의미하지 않음."
       ]
+    }
+  ],
+  "tours": [
+    {
+      "id": "zombie-crab-labo-2026",
+      "name": "ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "aliases": [
+        "좀크라",
+        "좀크",
+        "ZOMCRA",
+        "Zombie Crab Labo"
+      ],
+      "officialSource": "https://zutomayo.net/intense2/",
+      "scheduleStatus": "complete",
+      "heldCount": 19,
+      "cancelledCount": 1,
+      "checked_at": "2026-10-15"
     }
   ]
 }

@@ -49,6 +49,7 @@ function parseSetlist(html, eventId) {
   return { setlist, sourceRows, memos };
 }
 const events = [];
+const previous = JSON.parse(await readFile(new URL('../data/lives.json', import.meta.url),'utf8'));
 for (const [date, name, venue, city, country, path, officialUrl, crossUrl, expected] of config) {
   const id = `${date}-${path.includes('bunka_denrai') ? 'nara' : path.includes('intense2') ? (city === '서울' ? 'seoul' : 'tokyo') : path.includes('zutomayo_intense_in_seoul') ? 'seoul' : path.split('/').filter(Boolean).at(-1)}`;
   const { setlist, sourceRows, memos } = parseSetlist(await getHtml(db + path), id);
@@ -90,6 +91,9 @@ for (const [date, name, venue, city, country, path, officialUrl, crossUrl, expec
   events.push({ id, date, name, tour: name === intense || name === nara ? name : null, venue, city, country, sourceUrls: [...new Set([officialUrl, db + path, crossUrl].filter(Boolean))], officialSource: officialUrl, eventStatus: 'held', metadataStatus: 'official_checked', setlistSource, setlistSourceLabel: officialSetlist ? '주최사 공개 세트리스트' : 'zutomayo-DB · 팬 자료', setlistEvidence: officialSetlist ? 'organizer_published' : crossUrl ? 'fan_cross_checked' : 'fan_single_source', setlistStatus: 'complete', sourceSongRows: sourceRows, setlist, sourceMemos: memos, checked_at: checkedAt, verificationNotes });
   console.log(`${id}: ${sourceRows} source rows, ${setlist.length} entries`);
 }
-events.sort((a, b) => b.date.localeCompare(a.date));
+// Refreshing the first batch must not erase subsequently verified tour dates or stable IDs.
+const merged = new Map(previous.events.map(e=>[e.id,e]));
+for(const event of events)merged.set(event.id,{...merged.get(event.id),...event});
+const published = [...merged.values()].sort((a, b) => b.date.localeCompare(a.date));
 await mkdir(new URL('../data/', import.meta.url), { recursive: true });
-await writeFile(new URL('../data/lives.json', import.meta.url), JSON.stringify({ schemaVersion: 1, updatedAt: checkedAt, scope: '첫 구축용 확인 공연 12건. 전체 공연 목록이 아니며 개인 관람 기록은 포함하지 않음.', completenessPolicy: 'setlistStatus complete는 출처가 전체 목록으로 게시한 경우. 팬 자료의 완전성과 반복 횟수는 공식 인증과 구분.', events }, null, 2) + '\n', 'utf8');
+await writeFile(new URL('../data/lives.json', import.meta.url), JSON.stringify({ ...previous, schemaVersion: 1, updatedAt: previous.updatedAt > checkedAt ? previous.updatedAt : checkedAt, completenessPolicy: 'setlistStatus complete는 출처가 전체 목록으로 게시한 경우. 팬 자료의 완전성과 반복 횟수는 공식 인증과 구분.', events: published }, null, 2) + '\n', 'utf8');

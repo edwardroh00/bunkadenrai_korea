@@ -6,6 +6,8 @@ const manifest=JSON.parse(await readFile(path.join(target,'.openai','hosting.jso
 if(!manifest.project_id||manifest.static?.directory!=='dist')throw Error('Use the registered MY ROOM Site manifest.');
 const files=['index.html','nara.html','my-room.css','my-room.js','fan-model.js','styles.css','app.js','planner.js','cart-model.js','festival-data.js','data/goods.json','data/songs.json','data/lives.json','data/size-charts.json','data/activity-slots.json','assets/favicon.svg'];
 for(const file of files){const dest=path.join(target,'dist',file);await mkdir(path.dirname(dest),{recursive:true});await copyFile(path.join(root,file),dest);}
-await writeFile(path.join(target,'README.md'),'# ZUTOMAYO MY ROOM\n\nOwner-private first version. Static application in dist/. Personal records stay in the visitor browser and JSON backups, never in source or deployment archives.\n\nShared public data: 71 original songs, 12 concerts, 234 goods, 56 official size charts. Sources and check dates are carried by the data files and UI.\n');
+const catalog=JSON.parse(await readFile(path.join(root,'data/lives.json'),'utf8'));
+const held=catalog.events.filter(e=>e.eventStatus!=='cancelled').length,cancelled=catalog.events.length-held;
+await writeFile(path.join(target,'README.md'),`# ZUTOMAYO MY ROOM\n\nOwner-private first version. Static application in dist/. Personal records stay in the visitor browser and JSON backups, never in source or deployment archives.\n\nShared public data: 71 original songs, ${held} concerts and ${cancelled} cancellation, 234 goods, 56 official size charts. Sources and check dates are carried by the data files and UI.\n`);
 await writeFile(path.join(target,'.gitignore'),'.sites-runtime/\nnode_modules/\n.env\n.env.*\n*.log\n');
 console.log(JSON.stringify({project_id:manifest.project_id,public_files:files.length,static_directory:path.join(target,'dist')}));
